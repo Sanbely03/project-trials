@@ -1,3 +1,24 @@
 *{
-    background-color: aquamarine;
+   margin: 0%;
+   padding: 0%;
+}
+
+.header-wrapper{
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+    border: solid gray 4px;
+
+}
+
+.headings#default-value{
+    display: inline;
+
+}
+h1{
+    display: inline;
+    font-size: 24px;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+
+
 }
