@@ -4,20 +4,6 @@
 
 }
 
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .flex-item {
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    margin: 10px;
-  }
   .flex-container {
     display: flex;
     flex-direction: column;
