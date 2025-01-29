@@ -1,0 +1,53 @@
+*{
+    margin: vh;
+}
+body{
+    background-color: antiquewhite;
+    padding: vh;
+    margin: px;
+   
+}
+.container{
+    background-color: burlywood;
+    width: 87%;
+    height: auto;
+    margin: vh;
+    padding: vh;
+    border: solid red 5px;
+}
+    #deals {
+    display: flex;        /* Flex layout so items have equal height  */
+    flex-flow: row wrap ;  /* Allow items to wrap into multiple lines */
+    background-color: aquamarine;
+    border: solid rebeccapurple 3vh;
+    margin: vh;
+
+    }
+  #deals-02{
+        display: flex;
+        background-color: blueviolet;
+        border: solid darkcyan 3vh;
+        flex-direction: column;
+    
+}
+.sale-item-02{
+    background-color: cadetblue;
+    border: solid yellow 4px;
+
+
+}
+
+.sale-item-03{
+    background-color: dodgerblue;
+    border: solid navy 3px;
+    flex-direction: row;
+    
+
+}
+.sale-item {
+    display: flex;        /* Lay out each item using flex layout */
+    flex-flow: column;    /* Lay out item’s contents vertically  */
+    border: solid blue 3vh;
+    margin: px;
+}
+
