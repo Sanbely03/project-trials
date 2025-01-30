@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    background-color:aqua ;
+    border: solid blue 1vh;
+    padding: 10px;
+
+}
+
+.item{
+    background-color: peachpuff;
+    border: 3px solid salmon;
+    height: 45px;
+    flex: 1;
+    margin:1vh;
+    display: flex;
+    padding: 2vh;
+}
+.iner-item{
+    background-color:rgb(243, 211, 217);
+    border: 2px solid red;
+    flex: 1;
+    margin: 1vh;
+
+}
