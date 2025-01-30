@@ -4,63 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Layout</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background: #1c1c1c;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            width: 90%;
-            max-width: 900px;
-            background: lightgreen;
-            padding: 10px;
-            border: 5px solid black;
-        }
-        .row {
-            display: flex;
-            gap: 10px;
-        }
-        .box {
-            flex: 1;
-            border: 3px solid rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            background: lightcoral;
-        }
-        .top {
-            background: lightblue;
-            border: 3px solid blue;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-        }
-        .small-box {
-            flex: 1;
-            background: lightpink;
-            border: 3px solid red;
-            margin: 0 5px;
-        }
-        .bottom {
-            background: lightblue;
-            border: 3px solid blue;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-        }
-        .bottom .box {
-            background: lightblue;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
